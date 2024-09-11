@@ -1,0 +1,23 @@
+/* Resettings some default styles using multiple selectos separated by commas */
+body, h1, h2, p, ul, li, a {
+    margin: 0; /* Removing the defaultd margin */
+    padding: 0; /* Removing the default padding */
+    font-family: Arial, Helvetica, sans-serif; /* Setting the default font*/
+
+}
+
+/* HTML Element Selector*/
+body {
+    background-color: #012626; /* Dark teal background color */
+}
+
+h1 {
+    color: #038C7F; /*Teal Text Color*/
+    font-size: 2em; /* 2x the default font size*/
+    margin-bottom: 1em; /* Adding some space below the heading */
+}
+
+h2 {
+    font-size: 1.5em; /*1.5x the default font size*/
+    color: #027368; /* Dark teal text color */
+}

@@ -52,3 +52,33 @@ ul li{
 div ul{
     list-style-type: square; /* Adding the bullet points back */
 }
+
+/* General styling using a class */
+.feature-card {
+    border: 2px solid #7f8c8d; /* Grayish-blue */
+    padding: 20px; /* Adding some space inside the card */
+    margin: 20px; /* Adding some space outside the card */
+    background-color: #f9f9f9; /* Light gray */
+}
+
+/* Styling h3 within a class */
+.feature-card h3 {
+    font-size: 20px; /* 20px is the default font size */
+    margin-bottom: 10px; /* Adding some space below the heading */
+    color: #2c3e50; /* Deep blue text color */
+}
+
+
+/* Styling p within a class */
+.feature-card p {
+    margin-bottom: 10px; /* Adding some space below the paragraph */
+    color: #7f8c8d; /* Grayish-blue text color */
+}
+
+
+/* Specific styling using an ID */
+#special-feature {
+    background-color:#fde3a7; /* Light gold background color */
+    border-color: #f39c12; /* Gold border color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding a shadow */
+}

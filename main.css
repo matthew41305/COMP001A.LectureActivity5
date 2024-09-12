@@ -82,3 +82,35 @@ div ul{
     border-color: #f39c12; /* Gold border color */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding a shadow */
 }
+
+/* Styling the link in its normal state */
+a {
+    display: inline-block; /* Making the link a block element */
+    color: #3498db; /* Bright blue text color */
+    text-decoration: none; /* Removing the underline */
+    padding: 5px 10px; /* Adding some space inside the link */
+    border: 1px solid #3498db; /* Bright blue border color */
+    transition: all 0.3s ease; /* Adding a transition */
+}
+
+
+/* Conditional styling for the hover state */
+a:hover {
+    background-color: #3498db; /* Bright blue background color */
+    color: white; /* White text color */
+}
+
+/* Styling the button */
+button {
+    padding: 5px 10px; /* Adding some space inside the button */
+    border: none; /* Removing the border */
+    background-color: #ecf0f1; /* Light gray background color */
+    cursor: pointer; /* Changing the cursor to a pointer */
+    transition: all 0.3s ease; /* Adding a transition */
+}
+
+
+/* Conditional styling for the hover state */
+button:hover {
+    background-color: red; /* Red background color */
+}
